@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>d3 first</title>
-  <script src="../d3.min.js"></script>
-</head>
-<body>
-  
-
-  <script>
-    // 链式调用最简单的实现方法，就是返回this
+// 链式调用最简单的实现方法，就是返回this
     // d3.select('body').append('p').text('new paragraph');
     //如何实现数据的绑定——1需要数据、2需要dom元素
 
@@ -34,6 +21,3 @@
       .style('color',(d)=>{
         return d>15?'red':'blue'  //动态添加样式，写在回调函数里面
       })
-  </script>
-</body>
-</html>
