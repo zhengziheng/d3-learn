@@ -39,7 +39,7 @@ let svg = d3.select('body').append('svg').attr('width',w).attr('height',h)
      .append('text')
      .text(d=>d)
      .attr({
-一半
+      x:d=>d,
       y:d=>h-(d*4)+14,
       "font-size":"11px",
       fill:'white',
